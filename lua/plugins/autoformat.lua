@@ -20,6 +20,7 @@ return {
     -- Define your formatters
     formatters_by_ft = {
       lua = { "stylua" },
+      java = { "google-java-format" },
       javascript = { "prettier" },
       javascriptreact = { "prettier" },
       typescript = { "prettier" },
